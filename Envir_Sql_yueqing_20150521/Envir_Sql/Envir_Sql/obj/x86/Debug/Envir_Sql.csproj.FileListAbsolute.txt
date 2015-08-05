@@ -1,0 +1,17 @@
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\Envir_Sql\bin\Debug\Envir_Sql.exe
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\Envir_Sql\bin\Debug\Envir_Sql.pdb
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\Envir_Sql\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\Envir_Sql\obj\x86\Debug\Envir_Sql.Form1.resources
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\Envir_Sql\obj\x86\Debug\Envir_Sql.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\Envir_Sql\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\Envir_Sql\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\Envir_Sql\obj\x86\Debug\Envir_Sql.exe
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\Envir_Sql\obj\x86\Debug\Envir_Sql.pdb
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\Envir_Sql\bin\Debug\Envir_Sql.exe.config
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\Envir_Sql\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\Envir_Sql\obj\x86\Debug\Envir_Sql.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql\bin\Debug\Envir_Sql.exe.config
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql\obj\x86\Debug\Envir_Sql.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql\obj\x86\Debug\Envir_Sql.exe
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql\obj\x86\Debug\Envir_Sql.pdb

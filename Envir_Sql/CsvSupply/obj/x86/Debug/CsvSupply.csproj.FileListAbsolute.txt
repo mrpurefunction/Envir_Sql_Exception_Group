@@ -1,0 +1,6 @@
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\CsvSupply\bin\Debug\CsvSupply.exe
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\CsvSupply\bin\Debug\CsvSupply.pdb
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\CsvSupply\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\CsvSupply\obj\x86\Debug\CsvSupply.exe
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\CsvSupply\obj\x86\Debug\CsvSupply.pdb
+C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\CsvSupply\bin\Debug\CsvSupply.exe.config
