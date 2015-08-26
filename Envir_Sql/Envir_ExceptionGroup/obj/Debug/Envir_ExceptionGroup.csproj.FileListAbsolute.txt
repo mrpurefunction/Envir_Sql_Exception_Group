@@ -17,3 +17,21 @@ C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\Envir_Exc
 C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\Envir_ExceptionGroup\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\Envir_ExceptionGroup\obj\Debug\Envir_ExceptionGroup.dll
 C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\Envir_ExceptionGroup\obj\Debug\Envir_ExceptionGroup.pdb
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\bin\Debug\Envir_ExceptionGroup.dll
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\bin\Debug\Envir_ExceptionGroup.pdb
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.dll
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.pdb
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\bin\Debug\Microsoft.Practices.Unity.pdb
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\obj\Debug\Envir_ExceptionGroup.dll
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\Envir_ExceptionGroup\obj\Debug\Envir_ExceptionGroup.pdb

@@ -15,3 +15,8 @@ C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql_yueqing_2
 C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql\obj\x86\Debug\Envir_Sql.csproj.ResolveComReference.cache
 C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql\obj\x86\Debug\Envir_Sql.exe
 C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql\obj\x86\Debug\Envir_Sql.pdb
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql\bin\Debug\Envir_Sql.exe.config
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql\obj\x86\Debug\Envir_Sql.csproj.ResolveComReference.cache
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql\obj\x86\Debug\Envir_Sql.exe
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql\obj\x86\Debug\Envir_Sql.pdb

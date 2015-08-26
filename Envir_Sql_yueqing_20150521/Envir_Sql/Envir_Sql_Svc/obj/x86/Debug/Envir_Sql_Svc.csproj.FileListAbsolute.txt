@@ -48,3 +48,8 @@ C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql_yueqing_2
 C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql_Svc\obj\x86\Debug\Envir_Sql_Svc.ProjectInstaller.resources
 C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql_Svc\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql_Svc\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql_Svc\bin\Debug\Envir_Sql_Svc.exe.config
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql_Svc\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql_Svc\obj\x86\Debug\Envir_Sql_Svc.csproj.ResolveComReference.cache
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql_Svc\obj\x86\Debug\Envir_Sql_Svc.exe
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql_yueqing_20150521\Envir_Sql\Envir_Sql_Svc\obj\x86\Debug\Envir_Sql_Svc.pdb

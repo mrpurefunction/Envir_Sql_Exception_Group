@@ -22,3 +22,6 @@ C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\test\bin\
 C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\test\bin\Debug\ExceptionGroup.pdb
 C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\test\obj\x86\Debug\ExceptionGroup.exe
 C:\Documents and Settings\Administrator\桌面\ZhiQi\yueqing\Envir_Sql\test\obj\x86\Debug\ExceptionGroup.pdb
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\test\bin\Debug\ExceptionGroup.exe.config
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\test\obj\x86\Debug\ExceptionGroup.exe
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\Envir_Sql_Exception_Group\Envir_Sql\test\obj\x86\Debug\ExceptionGroup.pdb

@@ -141,8 +141,9 @@ namespace Envir_ExceptionGroup
             {
                 StringBuilder sb = new StringBuilder();
                 sb.Append("select top 1 s.* from v_ruleresult_startstop s where s.TimeLog < '" );
-                sb.Append(ts.ToString("yyyy-MM-dd HH:mm:ss") + "' and (select top 1 t.alarmlog from v_ruleresult_startstop t where t.TimeLog < '");
-                sb.Append(ts.ToString("yyyy-MM-dd HH:mm:ss") + "' and t.machineid = '" + machineid.ToString() + "' order by t.timelog desc) = '机组停机' and s.machineid = '" + machineid.ToString() + "' order by s.TimeLog desc");
+                //modified 20150811
+                sb.Append(ts.AddHours(1.0).ToString("yyyy-MM-dd HH:mm:ss") + "' and (select top 1 t.alarmlog from v_ruleresult_startstop t where t.TimeLog < '");
+                sb.Append(ts.AddHours(1.0).ToString("yyyy-MM-dd HH:mm:ss") + "' and t.machineid = '" + machineid.ToString() + "' order by t.timelog desc) = '机组停机' and s.machineid = '" + machineid.ToString() + "' order by s.TimeLog desc");
                 //sb.Append("t.timelog < '" + ts.AddHours(offsetbehind).ToString("yyyy-MM-dd HH:mm:ss") + "' and ");
                 //sb.Append("t.timelog > '" + ts.AddHours(-offsetahead).ToString("yyyy-MM-dd HH:mm:ss") + "'");
                 Database db = DatabaseFactory.CreateDatabase("dbconn");
@@ -299,8 +300,9 @@ namespace Envir_ExceptionGroup
                 #endregion
                 StringBuilder sb = new StringBuilder();
                 sb.Append("select top 1 s.* from v_ruleresult_startstop s where s.TimeLog < '");
-                sb.Append(ts.ToString("yyyy-MM-dd HH:mm:ss") + "' and (select top 1 t.alarmlog from v_ruleresult_startstop t where t.TimeLog < '");
-                sb.Append(ts.ToString("yyyy-MM-dd HH:mm:ss") + "' and t.machineid = '" + machineid.ToString() + "' order by t.timelog desc) = '机组停机' and s.machineid = '" + machineid.ToString() + "' order by s.TimeLog desc ");
+                //modified 20150811
+                sb.Append(ts.AddHours(1.0).ToString("yyyy-MM-dd HH:mm:ss") + "' and (select top 1 t.alarmlog from v_ruleresult_startstop t where t.TimeLog < '");
+                sb.Append(ts.AddHours(1.0).ToString("yyyy-MM-dd HH:mm:ss") + "' and t.machineid = '" + machineid.ToString() + "' order by t.timelog desc) = '机组停机' and s.machineid = '" + machineid.ToString() + "' order by s.TimeLog desc ");
                 //sb.Append("t.timelog < '" + ts.AddHours(offsetbehind).ToString("yyyy-MM-dd HH:mm:ss") + "' and ");
                 //sb.Append("t.timelog > '" + ts.AddHours(-offsetahead).ToString("yyyy-MM-dd HH:mm:ss") + "'");
                 Database db = DatabaseFactory.CreateDatabase("dbconn");
