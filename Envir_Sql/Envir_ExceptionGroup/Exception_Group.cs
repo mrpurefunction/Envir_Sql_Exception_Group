@@ -503,18 +503,37 @@ namespace Envir_ExceptionGroup
         /// <returns></returns>
         public DataSet GetStartStopDs_FGD(DateTime ts, int offsetahead, int offsetbehind, int machineid)
         {
+            DataSet ds = null;
+            DataSet ds2 = null;
             try
             {
                 StringBuilder sb = new StringBuilder();
+                StringBuilder sb2 = new StringBuilder();
                 sb.Append("select top 1 s.* from v_ruleresult_startstop_fgd s where s.TimeLog < '");
                 //modified 20150604 for AddHours(1.0)
                 sb.Append(ts.AddHours(1.0).ToString("yyyy-MM-dd HH:mm:ss") + "' and (select top 1 t.alarmlog from v_ruleresult_startstop_fgd t where t.TimeLog < '");
                 sb.Append(ts.AddHours(1.0).ToString("yyyy-MM-dd HH:mm:ss") + "' and t.machineid = '" + machineid.ToString() + "' order by t.timelog desc) = '机组停机' and s.machineid = '" + machineid.ToString() + "' order by s.TimeLog desc ");
+                //added 20151015
+                sb2.Append("select top 1 s.* from v_ruleresult_startstop_fgd s where s.TimeLog < '");
+                sb2.Append(ts.AddHours(1).ToString("yyyy-MM-dd HH:mm:ss") + "' and s.Timelog>= '" + ts.ToString("yyyy-MM-dd HH:mm:ss") + "' and (select top 1 t.alarmlog from v_ruleresult_startstop_fgd t where t.TimeLog < '");
+                sb2.Append(ts.AddHours(1).ToString("yyyy-MM-dd HH:mm:ss") + "' and t.Timelog>= '" + ts.ToString("yyyy-MM-dd HH:mm:ss") + "' and t.machineid = '" + machineid.ToString() + "' order by t.timelog desc) = '机组并网' and s.machineid = '" + machineid.ToString() + "' order by s.TimeLog desc");
                 //sb.Append("t.timelog < '" + ts.AddHours(offsetbehind).ToString("yyyy-MM-dd HH:mm:ss") + "' and ");
                 //sb.Append("t.timelog > '" + ts.AddHours(-offsetahead).ToString("yyyy-MM-dd HH:mm:ss") + "'");
                 Database db = DatabaseFactory.CreateDatabase("dbconn");
                 System.Data.Common.DbCommand dbc = db.GetSqlStringCommand(sb.ToString());
-                return db.ExecuteDataSet(dbc);
+                System.Data.Common.DbCommand dbc2 = db.GetSqlStringCommand(sb2.ToString());
+                ds = db.ExecuteDataSet(dbc);
+                ds2 = db.ExecuteDataSet(dbc2);
+
+                if (ds.Tables[0].Rows.Count > 0)
+                {
+                    return ds;
+                }
+                if (ds2.Tables[0].Rows.Count > 0)
+                {
+                    return ds2;
+                }
+                return null;
             }
             catch (Exception ex)
             {
@@ -640,19 +659,28 @@ namespace Envir_ExceptionGroup
         /// <returns></returns>
         public int? GetStartStopCount_FGD(DateTime ts, int offsetahead, int offsetbehind, int machineid)
         {
+            DataSet ds = null;
+            DataSet ds2 = null;
             try
             {
                 StringBuilder sb = new StringBuilder();
+                StringBuilder sb2 = new StringBuilder();
                 sb.Append("select top 1 s.* from v_ruleresult_startstop_fgd s where s.TimeLog < '");
                 //modified 20150604 for AddHours(1.0)
                 sb.Append(ts.AddHours(1.0).ToString("yyyy-MM-dd HH:mm:ss") + "' and (select top 1 t.alarmlog from v_ruleresult_startstop_fgd t where t.TimeLog < '");
                 sb.Append(ts.AddHours(1.0).ToString("yyyy-MM-dd HH:mm:ss") + "' and t.machineid = '" + machineid.ToString() + "' order by t.timelog desc) = '机组停机' and s.machineid = '" + machineid.ToString() + "' order by s.TimeLog desc");
+                //added 20151015
+                sb2.Append("select top 1 s.* from v_ruleresult_startstop_fgd s where s.TimeLog < '");
+                sb2.Append(ts.AddHours(1).ToString("yyyy-MM-dd HH:mm:ss") + "' and s.Timelog>= '" + ts.ToString("yyyy-MM-dd HH:mm:ss") + "' and (select top 1 t.alarmlog from v_ruleresult_startstop_fgd t where t.TimeLog < '");
+                sb2.Append(ts.AddHours(1).ToString("yyyy-MM-dd HH:mm:ss") + "' and t.Timelog>= '" + ts.ToString("yyyy-MM-dd HH:mm:ss") + "' and t.machineid = '" + machineid.ToString() + "' order by t.timelog desc) = '机组并网' and s.machineid = '" + machineid.ToString() + "' order by s.TimeLog desc");
                 //sb.Append("t.timelog < '" + ts.AddHours(offsetbehind).ToString("yyyy-MM-dd HH:mm:ss") + "' and ");
                 //sb.Append("t.timelog > '" + ts.AddHours(-offsetahead).ToString("yyyy-MM-dd HH:mm:ss") + "'");
                 Database db = DatabaseFactory.CreateDatabase("dbconn");
                 System.Data.Common.DbCommand dbc = db.GetSqlStringCommand(sb.ToString());
-                DataSet ds = db.ExecuteDataSet(dbc);
-                if (ds.Tables[0].Rows.Count == 0)
+                System.Data.Common.DbCommand dbc2 = db.GetSqlStringCommand(sb2.ToString());
+                ds = db.ExecuteDataSet(dbc);
+                ds2 = db.ExecuteDataSet(dbc2);
+                if ((ds.Tables[0].Rows.Count == 0) && (ds2.Tables[0].Rows.Count == 0))
                 {
                     return 0;
                 }
